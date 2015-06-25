@@ -52,7 +52,7 @@
 #define fribidi_unicode_version FRIBIDI_NAMESPACE(unicode_version)
 /* An string containing the version the Unicode standard implemented,
  * in the form of "x.y.z", or "unknown". */
-extern const char *fribidi_unicode_version;
+FRIBIDI_ENTRY extern const char *fribidi_unicode_version;
 
 
 /* Unicode Bidirectional Algorithm definitions: */

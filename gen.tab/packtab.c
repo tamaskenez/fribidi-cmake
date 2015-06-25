@@ -55,6 +55,7 @@ static int n, a, max_depth, digits, tab_width, per_row;
 static long N;
 signed int def_key;
 static uni_table temp, x, perm, *tab;
+#define pow pow__
 static long pow[22], cluster, cmpcluster;
 static const char *const *name, *key_type_name, *table_name, *macro_name;
 static FILE *f;
